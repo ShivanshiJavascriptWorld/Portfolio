@@ -484,28 +484,33 @@ span{
 
 
   }
+
   .skills-box .skills-content:hover{
     box-shadow: 0 0 25px var(--main-color);
     transform: scale(1.1);
   }
-  .skills-content .progress{
-    padding: 1rem 0;
-  }
-  .skills-content .progress h3{
-    font-size: 1.7rem;
+  .skills-content i {
+    font-size: 3rem; 
+    color: var(--main-color);  
+    transition: color 0.3s ease-in-out;
+}
+
+.skills-content i:hover {
+    color: white;  
+}
+
+.skills-content p {
+    font-size: 1.6rem;
+    color: var(--text-color);  
+}
+.skills-content .skill-item{
     display: flex;
-    justify-content: space-between;
-  }
-  .skills-content .progress h3 span{
-    color: var(--text-color);
-  }
-  .skills-content .progress .bar{
-    height: 2.5rem;
-    border-radius: 0.6rem;
-    border: 0.2rem solid var(--main-color);
-    padding: 0.5rem;
-    margin: 1rem 0;
-  }
+    /* justify-content: center; */
+    padding: 10px 4px;
+    align-items: center;
+    gap: 2rem;
+}
+
 
   
 .contact {

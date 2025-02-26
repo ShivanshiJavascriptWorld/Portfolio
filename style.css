@@ -511,7 +511,7 @@ span{
 .contact {
     padding: 7rem 12% 0rem;
     text-align: center;
-    background-color: var(--second-bg-color);
+    background-color: var(bg-color);
 }
 
 .contact .heading {
